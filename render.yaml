@@ -10,10 +10,6 @@ services:
   dockerfilePath: ./app/Dockerfile
   dockerContext: ./app
   autoDeploy: false
-  disk:
-    name: config
-    mountPath: /mattermost/config
-    sizeGB: 1
   envVars:
   - key: MM_USERNAME
     fromDatabase:
