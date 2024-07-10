@@ -1,6 +1,6 @@
 databases:
 - name: mattermost
-  plan: starter
+  plan: free
 
 services:
 - type: pserv
